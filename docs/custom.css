@@ -103,10 +103,10 @@ div.altmetric-embed {
   display: flex;
 }
 
-.navbar-nav .nav-item {
+/* .navbar-nav .nav-item {
   flex: 1 1 0;
   text-align: center;
-}
+} */
 
 /* Make links fill the space */
 .navbar-nav .nav-link {
@@ -118,6 +118,6 @@ div.altmetric-embed {
 }
 
 .navbar-nav .nav-link {
-  font-size: clamp(0.8rem, 1vw, 1rem);
+  font-size: clamp(0.95rem, 1vw, 1rem);
 }
 
