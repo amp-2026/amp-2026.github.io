@@ -95,3 +95,29 @@ div.altmetric-embed {
     overflow-y: auto !important;
     overflow-x: hidden !important;
 }
+
+
+/* Make navbar items equal width */
+.navbar-nav {
+  width: 100%;
+  display: flex;
+}
+
+.navbar-nav .nav-item {
+  flex: 1 1 0;
+  text-align: center;
+}
+
+/* Make links fill the space */
+.navbar-nav .nav-link {
+  display: block;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.navbar-nav .nav-link {
+  font-size: clamp(0.8rem, 1vw, 1rem);
+}
+
